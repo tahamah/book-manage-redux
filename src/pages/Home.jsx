@@ -5,7 +5,10 @@ const Home = () => {
         <section className="h-screen mt-20 mx-10">
             <div className="max-w-3xl  mx-auto rounded-xl bg-gray-200 pt-5">
                 <div className=" text-center  text-red-500 text-3xl pb-5">
-                    <h1>Welcome To Redux World !</h1>
+                    <h1>
+                        Welcome To Redux World{' '}
+                        <span className="font-bold">!</span>
+                    </h1>
                 </div>
                 <div className="bg-gray-500 text-white px-10 py-8 rounded-b-xl">
                     <h2 className="text-lg text-justify">

@@ -22,7 +22,7 @@ const EditBook = () => {
     }
 
     return (
-        <div className="h-screen max-w-7xl mx-auto mt-20 ">
+        <div className="h-screen  mx-10 mt-20 ">
             <form
                 onSubmit={handleSubmit}
                 className="bg-gray-100 max-w-lg mx-auto pt-12 pb-10 px-10 rounded-lg shadow-lg"

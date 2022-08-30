@@ -15,7 +15,7 @@ const BooksView = () => {
             <h1 className="text-3xl text-center font-bold mt-20 mb-10">
                 Show Books
             </h1>
-            <section className="">
+            <section className=" mx-10">
                 <div className="overflow-x-auto max-w-3xl mx-auto shadow-md sm:rounded-lg">
                     <table className=" w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <thead className="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">

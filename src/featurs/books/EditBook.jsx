@@ -16,7 +16,8 @@ const EditBook = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        dispatch(editBook({ id, editedName, editAuthor }))
+        const edit = { id, editedName, editAuthor }
+        dispatch(editBook(edit))
         navigate('/show-books')
     }
 

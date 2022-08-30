@@ -40,18 +40,18 @@ const BooksView = () => {
                         </thead>
                         <tbody className="bg-gray-500 text-gray-100">
                             {books &&
-                                books.map((book) => {
+                                books.map((book, index) => {
                                     const { id, name, author } = book
                                     return (
                                         <tr
-                                            key={id}
+                                            key={index}
                                             className=" border-b dark:bg-gray-900 dark:border-gray-700"
                                         >
                                             <th
                                                 scope="row"
                                                 className="py-4 px-6 font-medium whitespace-nowrap dark:text-white"
                                             >
-                                                {id}
+                                                {index + 1}
                                             </th>
                                             <td className="py-4 px-6">
                                                 {name}
